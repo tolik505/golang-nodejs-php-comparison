@@ -1,0 +1,1 @@
+docker run -it --rm --name php-bubble-sort -v "$PWD/src":/usr/src/myapp -w /usr/src/myapp php:7.2-cli php index.php

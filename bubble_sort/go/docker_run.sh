@@ -1,0 +1,1 @@
+docker run -it --rm --name go-bubble-sort -v "$PWD/src":/usr/src/myapp -w /usr/src/myapp golang:latest go run main.go

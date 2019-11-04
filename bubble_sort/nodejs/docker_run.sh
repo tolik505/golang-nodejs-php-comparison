@@ -1,0 +1,1 @@
+docker run -it --rm --name node-bubble-sort -v "$PWD/src":/usr/src/myapp -w /usr/src/myapp node:latest node index.js
